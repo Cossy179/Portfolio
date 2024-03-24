@@ -28,6 +28,27 @@ header {
 section {
     padding: 20px;
     border-bottom: 1px solid #e0e0e0;
+    background: linear-gradient(to bottom, #ff7f50, #1e90ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#hero {
+    background-color: #ff7f50;
+}
+
+#skills {
+    background-color: #1e90ff;
+    z-index: 0;
+}
+
+#projects {
+    background-color: #32cd32;
+}
+
+#contact {
+    background-color: #ff4500;
 }
 
 h2 {
@@ -115,6 +136,25 @@ h1 {
     display: flex; 
     
     font-size: medium;
+}
+
+#skills-list {
+    font-size: 2em; /* Adjust size as needed */
+    margin: 20px; /* Adjust margin as needed */
+    text-shadow: 2px 2px 1px #000000; /* Adjust shadow as needed */
+    animation: float 3s infinite;
+    font-family: 'Arial', sans-serif; /* Add desired font family */
+    font-weight: bold; /* Add desired font weight */
+    color: hsl(200 100% 80%); 
+    letter-spacing: 2px; /* Add desired letter spacing */
+    text-transform: uppercase; /* Add desired text transformation */
+    list-style-type: none;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
 }
 
   
