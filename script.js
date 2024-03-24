@@ -32,7 +32,7 @@ window.onload = function() {
         document.body.removeChild(welcome);
     }, 5000);
 
-    // Add an animation to the welcome message that fades it out after 3 seconds
+    // Add an animation to the welcome and loading message that fades it out after 3 seconds
     welcome.style.animation = 'fade-out 1s forwards';
     welcome.style.animationDelay = '3s';
     loading.style.animation = 'fade-out 1s forwards';

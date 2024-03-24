@@ -139,15 +139,15 @@ h1 {
 }
 
 #skills-list {
-    font-size: 2em; /* Adjust size as needed */
-    margin: 20px; /* Adjust margin as needed */
-    text-shadow: 2px 2px 1px #000000; /* Adjust shadow as needed */
+    font-size: 2em; 
+    margin: 20px; 
+    text-shadow: 2px 2px 1px #000000; 
     animation: float 3s infinite;
-    font-family: 'Arial', sans-serif; /* Add desired font family */
-    font-weight: bold; /* Add desired font weight */
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
     color: hsl(200 100% 80%); 
-    letter-spacing: 2px; /* Add desired letter spacing */
-    text-transform: uppercase; /* Add desired text transformation */
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
     list-style-type: none;
 }
 
