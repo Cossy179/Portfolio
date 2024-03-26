@@ -1,25 +1,26 @@
-# My Portfolio
+# My Portfolio Project
 
-This is my personal portfolio website, showcasing my skills and projects.
+This project is a personal portfolio website showcasing my skills and projects.
 
-## Structure
+## Project Structure
 
-The website consists of the following files:
+The project has the following structure:
 
 - `index.html`: The main HTML file that contains the structure of the website.
 - `styles.css`: The CSS file that contains all the styles for the website.
 - `script.js`: The JavaScript file that contains any interactive functionality.
+- `games/`: A directory containing game projects, including a Pong game.
 
-## Sections
+## Website Sections
 
 The website is divided into the following sections:
 
-- Home
-- Skills
-- Projects
-- Contact
+- Home: A welcome message and introduction.
+- Skills: A list of my technical skills.
+- Projects: A showcase of my projects, including a Pong game.
+- Contact: Contact information, including email, LinkedIn, and GitHub.
 
-## Contact
+## Contact Information
 
 Feel free to reach out to me through the following channels:
 
@@ -29,4 +30,4 @@ Feel free to reach out to me through the following channels:
 
 ## License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
