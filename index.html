@@ -4,6 +4,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    
 </head>
 <body>
     <div class="welcome">Welcome</div>
@@ -14,10 +15,10 @@
             <h1>Alex Halliday</h1>
             <nav>
                 <ul id="menu-list">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#hero" class="menu-item">Home</a></li>
+                    <li><a href="#skills" class="menu-item">Skills</a></li>
+                    <li><a href="#projects" class="menu-item">Projects</a></li>
+                    <li><a href="#contact" class="menu-item">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,7 +30,7 @@
         <section id="skills">
             <h2>Skills:</h2>
             <ul id="skills-list">
-                <li>HTML5</li>
+                <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>Express.JS</li>
@@ -37,12 +38,16 @@
                 
             </ul>
         </section>
-
         <section id="projects">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>Write a description of your first project.</p>
+            <div class="project" id="games">
+                <div class="project" id="games">
+                    <h3>Pong</h3>
+                    <p>Here is a simple infinite Pong game. Just click start and start playing!</p>
+                    <button id="pong-button" onclick="window.location.href='Games/pong.html'">Play Pong
+                    <div id="pong-ball"></div>
+                    </button>
+                </div>
             </div>
             <div class="project">
                 <h3>Project 2</h3>
@@ -55,9 +60,9 @@
             <h2>Contact Me</h2>
             <p>Feel free to reach out to me through the following channels:</p>
             <ul>
-                <li>Email: alexhalliday@outlook.com</li>
-                <li>LinkedIn: linkedin.com/in/alexhalliday</li>
-                <li>GitHub: github.com/Cossy179</li>
+                <li><a href="mailto:alexhalliday@outlook.com">Email: alexhalliday@outlook.com</a></li>
+                <li><a href="https://linkedin.com/in/alexhalliday">LinkedIn: linkedin.com/in/alexhalliday</a></li>
+                <li><a href="https://github.com/Cossy179">GitHub: github.com/Cossy179</a></li>
                 <!-- Add more contact information as needed -->
             </ul>
         </section>

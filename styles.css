@@ -199,3 +199,89 @@ a::before {
       grid-auto-flow: column;
     }
   }
+
+h2 {
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: #333;
+    text-shadow: 1px 2px 1px #000000;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    color: #777;
+   
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#pong-button {
+    position: relative;
+    background: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    height: 100px; /* Increase the height */
+    width: 200px; /* Increase the width */
+}
+
+#pong-button::before, #pong-button::after {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 10px;
+    height: 30px;
+    top: 50%;
+    animation: paddle 2s infinite;
+}
+
+#pong-button::before {
+    left: 10px;
+    animation-direction: reverse;
+}
+
+#pong-button::after {
+    right: 10px;
+}
+
+#pong-button:hover::before, #pong-button:hover::after {
+    animation-play-state: running;
+}
+
+
+#pong-ball {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; 
+    top: 50%;
+    left: 50%;
+    animation: ball 2s infinite;
+}
+@keyframes ball {
+    0%, 100% { transform: translate(-800%, -80%); }
+    50% { transform: translate(750%, 300%); }
+}
+
+@keyframes paddle {
+    0%, 100% { transform: translateY(-50%); }
+    50% { transform: translateY(80%); }
+}

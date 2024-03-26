@@ -11,7 +11,7 @@ window.onload = function() {
         document.body.appendChild(reveal);
         setTimeout(function() {
             document.body.removeChild(reveal);
-        }, 5800 + index * 300); // speed adjustment
+        }, 6000 + index * 300); // speed adjustment
     });
 
     const loading = document.querySelector('.loading');
