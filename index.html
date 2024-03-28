@@ -41,6 +41,7 @@
         <section id="projects">
             <h2>Projects</h2>
             <div class="project" id="games">
+                <h2>Games</h2>
                 <div class="project" id="games">
                     <h3>Pong</h3>
                     <p>Here is a simple infinite Pong game. Just click start and start playing!</p>
@@ -49,13 +50,53 @@
                     </button>
                 </div>
             </div>
-            <div class="project">
-                <h3>Weather App</h3>
-                <input type="text" id="town-input" placeholder="Enter a town">
-                <button id="get-weather">Get Weather</button>
-                <div id="weather-result"></div>
-                <div id="error-message"></div> 
+            <div class="project" id="apps">
+                <h2>Apps</h2>
+            
+                <div class="project">
+                    <h3>Weather App</h3>
+                    <input type="text" id="town-input" placeholder="Enter a town">
+                    <button id="get-weather">Get Weather</button>
+                    <div id="weather-result"></div>
+                    <div id="error-message"></div> 
+
+                </div>
+
+                <div class="project">
+                    <h3>Currency Exchange</h3>
+                    <p>Here is a simple currency exchange app. Just enter the amount and the currency you want to convert to and from.</p>
+                    <input type="number" id="amount" placeholder="Enter amount">
+                    <select id="from-currency">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value="AUD">AUD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                        <option value="SEK">SEK</option>
+                        <option value="NZD">NZD</option>
+                    </select>
+                    <select id="to-currency">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value="AUD">AUD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CNY">CNY</option>
+                        <option value="SEK">SEK</option>
+                        <option value="NZD">NZD</option>
+                    </select>
+                    <button id="convert">Convert</button>
+                    <div id="result"></div>
+                </div>
+            
             </div>
+
+            
             <!-- Add more project sections as needed -->
         </section>
 
@@ -75,5 +116,6 @@
     
     <script src="script.js"></script>
     <script src="weather.js"></script>
+    <script src="convert.js"></script>
 </body>
 </html>
