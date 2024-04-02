@@ -6,6 +6,8 @@ body {
     
 }
 
+
+
 .container {
     width: 80%;
     margin: auto;
@@ -237,8 +239,8 @@ h3 {
     padding: 20px;
     cursor: pointer;
     overflow: hidden;
-    height: 100px; /* Increase the height */
-    width: 200px; /* Increase the width */
+    height: 100px; 
+    width: 200px; 
 }
 
 #pong-button::before, #pong-button::after {
@@ -329,13 +331,9 @@ h3 {
 #error-message {
     color: #ff0000;
     margin-top: 10px;
-}.project {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
+
+
 
 #weather-result {
     background-color: #f0f0f0;
@@ -408,7 +406,22 @@ input[type="text"]:focus {
     transition: 0.3s;
     border-radius: 5px;
     padding: 20px;
-    margin: 20px;
+    margin: 2%; 
+    width: 96%; 
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+    .project {
+        width: 70%; 
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .project {
+        width: 50%;
+    }
 }
 
 .project h3 {
